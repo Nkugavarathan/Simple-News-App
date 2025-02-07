@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import NewsItem from "./NewsItem"
 
 const NewsBoard = () => {
   const [articles, setArticlies] = useState([])
@@ -17,6 +18,17 @@ const NewsBoard = () => {
       <h2 className="text-center mt-2">
         Lates <span className="badge bg-danger text-light  fs-4"> News</span>
       </h2>
+      {articles.map((news, index) => {
+        return (
+          <NewsItem
+            key={index}
+            title={news.title}
+            description={news.description}
+            src={news.urlToImage}
+            url={news.url}
+          />
+        )
+      })}
     </>
   )
 }
