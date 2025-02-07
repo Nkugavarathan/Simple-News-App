@@ -5,7 +5,7 @@ function App() {
   /*
   https://newsapi.org/docs/endpoints/top-headlines
   category
-The category you want to get headlines for. Possible options: businessentertainmentgeneralhealthsciencesportstechnology. Note: you can't mix this param with the sources param.
+The category you want to get headlines for. Possible options: business entertainment general health science sports technology. Note: you can't mix this param with the sources param.
   */
   const [category, setCategory] = useState("general")
   return (

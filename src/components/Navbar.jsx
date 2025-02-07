@@ -24,35 +24,47 @@ const Navbar = ({ setCategory }) => {
               <li className="nav-item">
                 <div
                   className="nav-link"
+                  style={{ cursor: "pointer" }}
                   onClick={() => setCategory("technology")}
                 >
                   Technology
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Buisness
-                </a>
+                <div
+                  className="nav-link"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setCategory("business")}
+                >
+                  Business
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <div
+                  className="nav-link"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setCategory("health")}
+                >
                   Health
-                </a>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Science
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <div
+                  className="nav-link"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setCategory("sports")}
+                >
                   Sports
-                </a>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Entertiment
-                </a>
+                <div
+                  className="nav-link"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setCategory("entertainment")}
+                >
+                  Entertainment
+                </div>
               </li>
             </ul>
             <form className="d-flex">

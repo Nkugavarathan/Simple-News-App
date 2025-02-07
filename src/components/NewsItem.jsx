@@ -1,5 +1,5 @@
 import React from "react"
-
+import importimg from "../assets/news.jpg"
 const NewsItem = ({ title, description, src, url }) => {
   return (
     <>
@@ -12,7 +12,7 @@ const NewsItem = ({ title, description, src, url }) => {
         }}
       >
         <img
-          src={src || "../assets/news.jpg"}
+          src={src ? src : importimg}
           className="card-img-top"
           alt="news-thumbnail"
           style={{
