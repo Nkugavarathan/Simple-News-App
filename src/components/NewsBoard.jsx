@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react"
 import NewsItem from "./NewsItem"
 
-const NewsBoard = () => {
+const NewsBoard = ({ category }) => {
   const [articles, setArticles] = useState([])
 
   useEffect(() => {
     let apiKey = import.meta.env.VITE_API_KEY
-    let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${apiKey}`
 
     fetch(url)
       .then((response) => response.json())

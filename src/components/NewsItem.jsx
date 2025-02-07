@@ -12,7 +12,7 @@ const NewsItem = ({ title, description, src, url }) => {
         }}
       >
         <img
-          src={src || ""}
+          src={src || "../assets/news.jpg"}
           className="card-img-top"
           alt="news-thumbnail"
           style={{
