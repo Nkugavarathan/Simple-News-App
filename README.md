@@ -17,4 +17,4 @@ A simple React-based News App that fetches the latest news articles based on dif
 -**Animations**: CSS and JavaScript for a smooth user experience
 
 ## Demo
-![Demo Screenshot](./assets/screenshot.png)
+![Demo Screenshot](./src/assets/demo.JPG)
