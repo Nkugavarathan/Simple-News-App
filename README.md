@@ -14,6 +14,7 @@ A simple React-based News App that fetches the latest news articles based on dif
 - **React**: Frontend framework for building the UI.
 - **Bootstrap**: Styling framework for responsive layout.
 - **News API**: To fetch the latest news articles from various categories.
+-**Animations**: CSS and JavaScript for a smooth user experience
 
 ## Demo
 ![Demo Screenshot](./assets/screenshot.png)
