@@ -462,3 +462,37 @@ hr {
 #background > div:nth-child(5n + 4) {
   --size: 7vw;
 }
+
+
+.footer {
+  background: linear-gradient(135deg, #ff6f61, #d6a4a4);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  display:  flex;
+  align-items: center;
+}
+.footer .social-icons {
+  margin: 1rem 0;
+}
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+.footer .social-icons a:hover {
+  color: #7161ff;
+}
+.footer .footer-links {
+  margin: 1rem 0;
+}
+.footer .footer-links a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer .footer-links a:hover {
+  color:  #7161ff;
+}
